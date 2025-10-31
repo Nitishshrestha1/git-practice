@@ -6,7 +6,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>welcome to my website</h1>
+    <h1>Quizes</h1>
+    <div id="quiz-container">
+        <div id="question">Loading question.....</div>
+
+        <form id="quiz-form">
+            <div class="option">
+                <input type="radio" name="answer" id="option1" value="0">
+                <label for="option1" id="label1">option 1</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="option2" value="1">
+                <label for="option2" id="label2">option 2</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="option3" value="2">
+                <label for="option3" id="label3">option 3</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="option4" value="3">
+                <label for="option4" id="label4">option 4</label>
+            </div>
+        </form>
+
+        <button id="next-btn">Next</button>
+        <div id="result"></div>
+    </div>
+    <script src="script js"></script>
 </body>
-<script src="script js"></script>
 </html>
